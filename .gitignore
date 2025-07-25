@@ -1,1 +1,2 @@
-venv
+# Ignora o ambiente virtual
+.venv/
