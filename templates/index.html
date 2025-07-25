@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chamada API - Gato Aleatório 🐱</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <section id="main">
+      <h2><code>Chamada de API</code></h2>
+      <article>
+        <h1>Olha esse gatinho:</h1>
+        <section id="container-01">
+          <img src="{{ imagem_url }}" alt="Gato Aleatório" />
+        </section>
+        <button onclick="location.reload()">Novo gato 🐾</button>
+      </article>
+    </section>
+  </body>
+</html>
