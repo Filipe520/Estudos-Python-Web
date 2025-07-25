@@ -1,2 +1,13 @@
 # Ignora o ambiente virtual
 .venv/
+
+# Ignora arquivos de cache do Python
+__pycache__/
+*.py[cod]
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos temporários do sistema
+.DS_Store
+Thumbs.db
